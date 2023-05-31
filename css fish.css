@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #0473c4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0562a6;
+}
+
+
+
+  img {
+    max-width: 15%;
+    height: auto;
+    position: absolute;
+    margin-bottom: 20px;
+    right: 42%;
+    top: 6%;
+  }
+
+.rectangle {
+  width: 20%; /* Ширина прямоугольника */
+  height: 750px ; /* Высота прямоугольника */
+  background-color: #0473c4; /* Цвет прямоугольника */
+  position: absolute;
+  margin-top: -7%;
+  z-index: 3;
+}
